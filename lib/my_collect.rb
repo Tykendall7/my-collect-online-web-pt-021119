@@ -5,5 +5,6 @@ def my_collect (collection)
   i=0
   do while i < collection.length
     new_collection 
+    yield()
 end
 
